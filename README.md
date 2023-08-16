@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ## How to test the keyboard with your own hands
 
-You need to connect an external camera to your pc and get access to the cameras' stream e.g. through DroidCam app. Position the camera so that it is facing downwards and put your hands under the camera. In the virtual_keyboard.py file in the "Basic parameters.." section set the video source to be the external camera. Then run the virtual_keyboard.py and you will see your hands inside the keyboard. In the image below you can see the setup we use. You can type only with your index fingers and in order to achieve better hand segmentation it's better to have all the rest fingers closed as shown [here](#virtual-keyboard-for-smart-glasses---demo).
+You need to connect an external camera to your pc and get access to the cameras' stream. Position the camera so that it is facing downwards and put your hands under the camera. In the virtual_keyboard.py file in the "Basic parameters.." section set the video source to be the external camera. Then run the virtual_keyboard.py and you will see your hands inside the keyboard. You can type only with your index fingers and in order to achieve better hand segmentation it's better to have all the rest fingers closed as shown [here](#virtual-keyboard-for-smart-glasses---demo). In the image below you can see our setup. We use a phone as an external camera and we connect it to the pc through the DroidCam app.
 
 <img style="display:block; margin:0 auto; margin-top: 25px;" src="https://i.imgur.com/Hyrs9Ni.jpg" alt="virtual keyboard type with your hands" width="400" title="virtual keyboard type with your hands">
 
