@@ -12,6 +12,10 @@ import onnxruntime as rt
 ##  Basic parameters you can set  ##
 ####################################
 
+## Choose videoCapture source (there is a testing_videos folder you can use videos from or you can use your own)
+# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('test_videos/test2.mp4')
+
 ## Choose hand segmentation model (raw or optimized)
 # HAND_SEGMENTATION_MODEL = 'raw'
 HAND_SEGMENTATION_MODEL = 'optimized'
@@ -21,10 +25,6 @@ HAND_SEGMENTATION_THRESHOLD = 0.7
 
 ## Set click detection prediction threshold
 CLICK_DETECTION_THRESHOLD = 0.85 
-
-## Choose videoCapture source (there is a testing_videos folder you can peek videos from or you can use your own)
-# cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture('testing_videos/test2.mp4')
 
 
 ####################################
