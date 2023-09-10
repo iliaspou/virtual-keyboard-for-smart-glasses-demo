@@ -17,7 +17,7 @@ Watch virtual keyboard on <a href="https://youtu.be/81pK924fW3g" target="_blank"
 
 **1\.** Download the project.
 
-**2\.** Download and unzip the folders contained [here](https://drive.google.com/drive/folders/1Qor3ywnjTYXUx-6Ppc3t1OX0DuZOQdHg?usp=sharing) and move the extracted folders in the project's directory. The project structure you should have is shown below:   
+**2\.** Download and unzip the file contained [here](https://drive.google.com/drive/folders/1Qor3ywnjTYXUx-6Ppc3t1OX0DuZOQdHg?usp=sharing) and move the extracted folders in the project's directory. The project structure you should have is shown below:   
     
     ├─ virtual-keyboard-for-smart-glasses-demo
     │   ├── click_detection_models
@@ -29,7 +29,7 @@ Watch virtual keyboard on <a href="https://youtu.be/81pK924fW3g" target="_blank"
     │   ├── virtual_keyboard.py
     └   ├── requirements.txt
     
-The folders "click_detection_models" and "hand_segmentation_model" contain ML-models necessary to run the code, the folder "keys" contains the keys' images (the buttons of the keyboard) and the folder "test_videos" contains some sample videos you can use to test the keyboard. If you want to test the keyboard using live video, see [below](#how-to-test-the-keyboard-with-your-own-hands).
+The folders "click_detection_models" and "hand_segmentation_model" contain ML-models necessary to run the code, the folder "keys" contains the keys' images (the buttons of the keyboard) and the folder "test_videos" contains some sample videos you can use to test the keyboard. If you want to test the keyboard using live video, see [below](#test-the-keyboard-with-live-video).
 
 **3\.** Install the requirements using pip:
 ```shell
