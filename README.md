@@ -9,15 +9,15 @@ Watch virtual keyboard on <a href="https://youtu.be/81pK924fW3g" target="_blank"
 
 ## Requirements
 
- - We use **Python version 3.7.3** to build the project.
+ - We used **Python version 3.7.3** to build the project.
  - All the dependencies of the project are listed in the requirements.txt file.
 
 
-## How to setup the project on your pc
+## Setup
 
-**1\.** Download this project.
+**1\.** Download the project.
 
-**2\.** Download and unzip the folder contained [here](https://drive.google.com/drive/folders/1Qor3ywnjTYXUx-6Ppc3t1OX0DuZOQdHg?usp=sharing) and move the extracted folders in the project's directory. The project structure you should have is shown below:   
+**2\.** Download and unzip the folders contained [here](https://drive.google.com/drive/folders/1Qor3ywnjTYXUx-6Ppc3t1OX0DuZOQdHg?usp=sharing) and move the extracted folders in the project's directory. The project structure you should have is shown below:   
     
     ├─ virtual-keyboard-for-smart-glasses-demo
     │   ├── click_detection_models
@@ -29,7 +29,7 @@ Watch virtual keyboard on <a href="https://youtu.be/81pK924fW3g" target="_blank"
     │   ├── virtual_keyboard.py
     └   ├── requirements.txt
     
-The folders "click_detection_models" and "hand_segmentation_model" contain ML-models necessary to run the code, the folder "keys" contains the keys' images (the buttons of the keyboard) and the folder "test_videos" contains some sample videos you can use to test the keyboard. If you want to type in the keyboard with your own hands, see [below](#how-to-test-the-keyboard-with-your-own-hands).
+The folders "click_detection_models" and "hand_segmentation_model" contain ML-models necessary to run the code, the folder "keys" contains the keys' images (the buttons of the keyboard) and the folder "test_videos" contains some sample videos you can use to test the keyboard. If you want to test the keyboard using live video, see [below](#how-to-test-the-keyboard-with-your-own-hands).
 
 **3\.** Install the requirements using pip:
 ```shell
@@ -37,14 +37,14 @@ pip install -r requirements.txt
 ```
 
 
-## How to test the keyboard with your own hands
+## Test the keyboard with live video
 
 You need to connect an external camera to your pc and get access to the cameras' stream. Position the camera so that it is facing downwards and put your hands under the camera. In the virtual_keyboard.py file in the "Basic parameters.." section set the video source to be the external camera. Then, run the virtual_keyboard.py and you will see your hands inside the keyboard. You can type only with your index fingers and in order to achieve better hand segmentation it's better to have all the rest fingers closed as shown [here](#virtual-keyboard-for-smart-glasses---demo). In the image below you can see our setup. We use a phone as an external camera and we connect it to the pc through the DroidCam app.
 
 <img style="display:block; margin:0 auto; margin-top: 25px;" src="https://i.imgur.com/Hyrs9Ni.jpg" alt="virtual keyboard type with your hands" width="400" title="virtual keyboard type with your hands">
 
 
-## A little bit about this virtual keyboard
+## A little bit about this keyboard
 
  - This implementation is part of my thesis which can be found <a href="http://ikee.lib.auth.gr/record/342948/files/Poulios%20Ilias.pdf" target="_blank">here</a> (available only in greek).
 
